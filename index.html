@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Search Tool For Video</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fa fa-search">SERCHING</i></a>
+        <nav class="navbar"> 
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+        <div class="icons">
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+        
+    </header>
+
+    <a name="about"><br>
+        <div id="about-content">
+
+        <p style="font-size: 24px;
+        margin-bottom: 20px;padding-top: 25px;">ABOUT</p>        </br></a>
+
+        <p>
+            Welcome to our Semantic Search Tool!
+            <br/>
+
+    Our Semantic Search Tool utilizes advanced natural language processing techniques to provide you with highly accurate and relevant search results. Unlike traditional keyword-based search engines, our tool understands the meaning behind your queries and retrieves information based on its semantic context.
+    <br/>
+
+    How does it work?
+    <br/>
+
+    When you enter a query into our Semantic Search Tool, it analyzes the entire search phrase, taking into account the relationships between words and their contextual meaning. By understanding the intent behind your query, our tool is able to deliver results that match your requirements more effectively.
+    <br/>
+
+    Key Features:
+    <br/>
+
+    1. Precise Results: Our Semantic Search Tool goes beyond simple keyword matching. It considers the semantics of your query, including synonyms, related concepts, and context, to provide you with more accurate and meaningful results.
+    <br/>
+
+    2. Conceptual Understanding: With our tool, you can express your query in natural language. It understands the meaning and relationships between words, allowing you to phrase your search in a way that feels natural to you.
+    <br/>
+
+    3. Contextual Relevance: Our tool takes into account the context of your search to deliver results that align with your specific needs. It considers the broader context of the information you're seeking, resulting in more relevant and comprehensive search results.
+    <br/>
+
+    4. Efficient and Fast: Despite the complexity of its underlying algorithms, our Semantic Search Tool is designed for efficiency and speed. It quickly processes your queries and retrieves results in a matter of seconds, ensuring a seamless search experience.
+    <br/>
+
+    5. User-friendly Interface: Our tool features a clean and intuitive interface, making it easy to use for both casual and advanced users. Simply enter your query, and let our tool handle the rest.
+    <br/>
+    <br/>
+    <br/>
+
+    Whether you're conducting research, exploring a new topic, or seeking specific information, our Semantic Search Tool is your go-to resource. Experience the power of semantic search and unlock a new level of precision and relevance in your search results.
+    <br/>
+    <br/>
+
+    Start using our Semantic Search Tool today and discover the difference it can make in your information retrieval process.
+        </p>
+        <a name="contact"><br>
+      <div id="contact-details">
+        <p style="font-size: 24px;
+        margin-bottom: 20px;">CONTACT DETAILS</p>
+        </br></a>
+
+        
+        <div class="contact">
+          <h3>Ritik Mendapara</h3>
+          <p><strong>Email:</strong>200303105034@paruluniversity.ac.in</p>
+          <p><strong>Enrollment No.:</strong>200303105034 </p>
+        </div>
+      
+        <div class="contact">
+          <h3>Het Kasundra</h3>
+          <p><strong>Email:</strong>200303105027</p>
+          <p><strong>Enrollment No.:</strong>200303105027@paruluniversity.ac.in</p>
+        </div>
+        <div class="contact">
+            <h3>Yash Patel</h3>
+            <p><strong>Email:</strong>200303105055@paruluniversity.ac.in</p>
+            <p><strong>Enrollment No.:</strong>200303105055 </p>
+          </div>
+          <div class="contact">
+            <h3>Dishit Jayswal</h3>
+            <p><strong>Email:</strong>200303105022@paruluniversity.ac.in</p>
+            <p><strong>Enrollment No.:</strong>200303105022 </p>
+          </div>  
+      
+      </div>
+ <div class="container-fluid">
+    <main>
+      <h1 class="text-center">Organic Chemistry Videos Search Tool</h1>
+    </main>
+
+    <div>
+      <label for="queryText" class="fs-3">Question:</label><br>
+      <input type="text" id="queryText" name="queryText" class="form-control input-lg mt-1">
+      <button onclick="sendData()" id="submitButton" class="btn btn-secondary mt-2">Submit</button>
+    </div>
+
+    <div id="loadingDiv" class="fs-4 mt-2" style="display:none">Loading...</div>
+
+    <br>
+    <div id="responseDiv"></div>
+  </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
